@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+}
+
+h1 {
+    color: #bb5397;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 15px;    
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;    
+}
+
+h2 {
+    color: #bb5397;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color: #6180b6;
+    margin: 10px 5px 5px 5px;
+    line-height: 140%;
+
+}
+
+.logo-principal {
+    height: fit-content;
+    width: 33vw;
+}
+
+.logo-resort1 {
+    width: 50%;
+    height: fit-content;
+    float: right;
+    margin: 5px;
+}
+.logo-resort2 {
+    width: 50%;
+    height: fit-content;
+    float: left;
+    margin: 5px;
+}
+
+.img-footer {
+    height: fit-content;
+    width: 100vw;
+    margin: 5px;
+}
+
+@media (max-width: 1090px) {
+    .logo-resort1, .logo-resort2 {
+        width: 25vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-resort1, .logo-resort2 {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-resort1, .logo-resort2 {
+        width: 90vw;
+    }
+}
